@@ -4,7 +4,7 @@ An Omarchy theme in aurora green on a deep green-black, with violet-edged window
 
 ![Norrsken desktop preview](preview.png)
 
-Neovim, a music visualizer, [Flea](https://github.com/ejuro/flea), and [Omawrite](https://github.com/ejuro/omawrite) using Norrsken with the full glass effect.
+Neovim, a music visualizer, [Flea](https://github.com/erikrjohansson/flea), and [Omawrite](https://github.com/erikrjohansson/omawrite) using Norrsken with the full glass effect.
 
 ## Background
 
@@ -15,7 +15,7 @@ One **3840 × 2160** background: a thin aurora-green planet edge against a star 
 ## Install
 
 ```bash
-omarchy theme install https://github.com/ejuro/omarchy-norrsken-theme.git
+omarchy theme install https://github.com/erikrjohansson/omarchy-norrsken-theme.git
 ```
 
 Tested on Omarchy **4.0.4**.
@@ -25,13 +25,13 @@ Tested on Omarchy **4.0.4**.
 Omarchy skips Lua from installed themes for safety, so the command above leaves out the frosted-glass windows, blur, rounded corners, and glow in [`hyprland.lua`](hyprland.lua). To add them, read that file, then run:
 
 ```bash
-git clone https://github.com/ejuro/omarchy-norrsken-theme.git ~/.local/share/omarchy-norrsken-theme
+git clone https://github.com/erikrjohansson/omarchy-norrsken-theme.git ~/.local/share/omarchy-norrsken-theme
 rm -rf ~/.config/omarchy/themes/norrsken
 ln -s ~/.local/share/omarchy-norrsken-theme ~/.config/omarchy/themes/norrsken
 omarchy theme set norrsken
 ```
 
-Terminals, the Omarchy agent and About windows, [Omawrite](https://github.com/ejuro/omawrite), and [Flea](https://github.com/ejuro/flea) turn to glass; everything else stays opaque.
+Terminals, the Omarchy agent and About windows, [Omawrite](https://github.com/erikrjohansson/omawrite), and [Flea](https://github.com/erikrjohansson/flea) turn to glass; everything else stays opaque.
 
 ## Palette
 
